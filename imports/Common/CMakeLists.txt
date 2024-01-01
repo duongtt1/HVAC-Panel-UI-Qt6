@@ -21,4 +21,10 @@ qt_add_qml_module(HVACCustomControls
         images/keyboard.svg
         images/thermometer.svg
         images/tooltip.svg
+        QML_FILES AutoButton.qml
+        QML_FILES ColorizedImage.qml
+        images/btn-bg-big-off.png
+        images/btn-bg-big-on.png
+        images/btn-bg-down.png
+        QML_FILES CustomIconButton.qml
 )

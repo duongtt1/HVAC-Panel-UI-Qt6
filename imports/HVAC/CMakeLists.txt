@@ -12,6 +12,11 @@ set_source_files_properties(AppSettings.qml
         QT_QML_SINGLETON_TYPE true
 )
 
+set_source_files_properties(ColorStyle.qml
+    PROPERTIES
+        QT_QML_SINGLETON_TYPE true
+)
+
 qt6_add_qml_module(HVAC
     URI "HVAC"
     VERSION 1.0
@@ -19,4 +24,5 @@ qt6_add_qml_module(HVAC
     QML_FILES
         Constants.qml
         AppSettings.qml
+        ColorStyle.qml
 )

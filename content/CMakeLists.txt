@@ -5,11 +5,14 @@ qt_add_library(content STATIC)
 qt6_add_qml_module(content
     URI "content"
     VERSION 1.0
-    RESOURCE_PREFIX "/qt/qml"
+    RESOURCE_PREFIX ""
     QML_FILES
         App.qml
-        Screen01.ui.qml
+        HomePage.qml
     RESOURCES
         fonts/fonts.txt
         RESOURCES images/arrow.svg images/Auto.svg images/bedroom.svg images/circle.svg images/Cool.svg images/down.svg images/drop.svg images/Dry.svg images/Eco.svg images/edit.svg images/energy.svg images/Fan.svg images/Heat.svg images/home.svg images/kid_room.svg images/kitchen.svg images/living_room.svg images/logo.png images/maxTemp.svg images/minTemp.svg images/more.svg images/power.svg images/schedule.svg images/settings.svg images/stats.svg images/temperature.svg images/theme.svg images/thermostat.svg images/up.svg
+        RESOURCES images/main-bg.png
+        RESOURCES images/btn-bg-down.png
+        RESOURCES images/btn-bg-big-off.png images/btn-bg-big-on.png
 )

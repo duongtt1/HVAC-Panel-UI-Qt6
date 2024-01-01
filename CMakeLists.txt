@@ -15,7 +15,8 @@ endif()
 
 qt_add_executable(HVACApp src/main.cpp
     src/app_environment.h
-    src/import_qml_plugins.h)
+    src/import_qml_plugins.h
+    content/images/btn-bg-down.png)
 
 qt_add_resources(HVACApp "configuration"
     PREFIX "/"
